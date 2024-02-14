@@ -1,0 +1,234 @@
+.nave-bar{
+    background-color: rgb(63, 163, 153);
+    z-index: 200;
+    width: 1502px;
+    height: 49px;
+    position: sticky;
+    top: 10px;
+    display: grid;   
+    grid-template-columns: 100px 400px repeat(5,1fr) 400px 185px;
+    padding-top: 29px;
+   
+}
+
+
+.nave-bar .logo{
+    grid-column-start: 2;
+}
+.nave-bar .logo i{
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 30px;
+    height: 30px;
+}
+.nave-bar .home a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+ .nave-bar .home a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 51px;
+    height: 3px;
+    position: absolute;
+    left: 496px;
+    top: 49px;
+}
+ .nave-bar .about a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ .nave-bar .about a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 51px;
+    height: 3px;
+    position: absolute;
+    left: 581px;
+    top: 49px;
+}
+.nave-bar .servis a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nave-bar .servis a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 51px;
+    height: 3px;
+    position: absolute;
+    left: 666px;
+    top: 49px;
+}
+.nave-bar .gallery a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nave-bar .gallery a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 56px;
+    height: 3px;
+    position: absolute;
+    left: 748px;
+    top: 49px;
+}
+ .nave-bar .contact a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nave-bar .contact a:hover::after{
+content: "";
+background-color: rgb(163 101 63);
+width: 59px;
+height: 3px;
+position: absolute;
+left: 834px;
+top: 49px;
+}
+.cont2 {
+    background-color: orangered;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 6px;
+    width: 137px;
+    height: 33px;
+    text-align: center;
+    grid-column-start: 9;
+    margin-top: -12px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.cont2 a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.cont2:hover{
+    background-color: rgb(63, 163, 153);
+    border:2px orangered solid;
+}
+.front img{
+    width: 605px;
+    height: 628px;
+    position: absolute;
+    left: 10px;
+    top: 96px;
+    border: orangered 5px solid;
+    border-radius: 28px;
+}
+
+.front .reg p:nth-child(1){
+    font-size: 30px;
+    position: absolute;
+    left: 1326px;
+    top: 121px;
+    width: 130px;
+    height: 50px;
+}
+.front .reg p:nth-child(2){
+    font-size: 22px;
+    position: absolute;
+    left: 1140px;
+    top: 169px;
+    width: 349px;
+    height: 50px;
+}
+.front .reg  p:nth-child(3){
+    font-size: 22px;
+    position: absolute;
+    left: 1352px;
+    top: 223px;
+    width: 124px;
+    height: 50px;
+}
+.front .reg  p:nth-child(4){
+    font-size: 22px;
+    position: absolute;
+    left: 994px;
+    top: 224px;
+    width: 300px;
+    height: 50px;
+}
+.front .reg  p:nth-child(5){
+    font-size: 22px;
+    position: absolute;
+    left: 1396px;
+    top: 368px;
+    width: 120px;
+    height: 50px;
+}
+.front .reg  p:nth-child(6){
+    font-size: 22px;
+    position: absolute;
+    left: 858px;
+    top: 373px;
+    width: 254px;
+    height: 50px;
+}
+.front .reg  p:nth-child(7){
+    font-size: 22px;
+    position: absolute;
+    left: 1358px;
+    top: 541px;
+    width: 254px;
+    height: 50px;
+}
+.front .reg input:nth-of-type(1) {
+    color: rgb(39 75 71);
+    position: absolute;
+    left: 1104px;
+    top: 286px;
+    width: 330px;
+    height: 50px;
+    background-color: #ff000073;
+    font-size: 20px;
+    direction:rtl;
+}
+.front .reg input:nth-of-type(2) {
+    position: absolute;
+    left: 681px;
+    top: 286px;
+    width: 352px;
+    height: 50px;
+    background-color: #ff000073;
+    font-size: 20px;
+    color: rgb(39 75 71);
+    direction:rtl;
+}
+
+.front .reg input:nth-of-type(3) {
+    position: absolute;
+    left: 1106px;
+    top: 435px;
+    width: 330px;
+    height: 50px;
+    background-color: #ff000073;
+    font-size: 20px;
+    color: rgb(39 75 71);
+    direction:rtl;
+}
+.front .reg input:nth-of-type(4) {
+    position: absolute;
+    left: 682px;
+    top: 434px;
+    width: 353px;
+    height: 50px;
+    background-color: #ff000073;
+    font-size: 20px;
+    color: rgb(39 75 71);
+    direction:rtl;
+}

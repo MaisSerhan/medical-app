@@ -1,0 +1,121 @@
+.front .nave-bar{
+    background-color: rgb(63, 163, 153);
+    z-index: 0;
+    width: 1510px;
+    height: 49px;
+    position: absolute;
+    top: 10px;
+    display: grid;   
+    grid-template-columns: 100px 400px repeat(5,1fr) 400px 185px;
+    padding-top: 29px;
+}
+
+.front .nave-bar .logo{
+    grid-column-start: 2;
+}
+.front .nave-bar .logo i{
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 30px;
+    height: 30px;
+}
+.front .nave-bar .home a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.front .nave-bar .home a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 51px;
+    height: 3px;
+    position: absolute;
+    left: 496px;
+    top: 49px;
+}
+.front .nave-bar .about a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.front .nave-bar .about a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 51px;
+    height: 3px;
+    position: absolute;
+    left: 581px;
+    top: 49px;
+}
+.front .nave-bar .servis a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.front .nave-bar .servis a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 51px;
+    height: 3px;
+    position: absolute;
+    left: 668px;
+    top: 49px;
+}
+.front .nave-bar .gallery a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.front .nave-bar .gallery a:hover::after{
+    content: "";
+    background-color: rgb(163 101 63);
+    width: 56px;
+    height: 3px;
+    position: absolute;
+    left: 754px;
+    top: 49px;
+}
+.front .nave-bar .contact a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.front .nave-bar .contact a:hover::after{
+content: "";
+background-color: rgb(163 101 63);
+width: 59px;
+height: 3px;
+position: absolute;
+left: 838px;
+top: 49px;
+}
+.cont2 {
+    background-color: orangered;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 6px;
+    width: 137px;
+    height: 33px;
+    text-align: center;
+    grid-column-start: 9;
+    margin-top: -12px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.cont2 a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.cont2:hover{
+    background-color: rgb(63, 163, 153);
+    border:2px orangered solid;
+}
